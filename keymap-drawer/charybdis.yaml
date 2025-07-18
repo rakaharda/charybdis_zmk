@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  QWERTY: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Z, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, G, H, J, K, L, '''',
+  QWERTY: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, G, H, J, K, L, '''',
     LCTRL, Z, X, C, V, B, N, M, ',', ',', /, ZMK Studio, LEFT ALT, SPACE, NUMBERS, ENTER, BACK SPACE, L CLK, R CLK, SCROLL]
   NUMBERS:
   - {t: ▽, type: trans}
