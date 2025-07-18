@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QWERTY: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Z, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, G, H, J, K, L, '''',
-    LCTRL, Z, X, C, V, B, N, M, ',', ',', /, ZMK Studio, '1', '2', '3', '6', '7', '4', '5', '8']
+    LCTRL, Z, X, C, V, B, N, M, ',', ',', /, ZMK Studio, LEFT ALT, SPACE, NUMBERS, ENTER, BACK SPACE, L CLK, R CLK, SCROLL]
   NUMBERS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -53,7 +53,7 @@ layers:
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - {t: ▽, type: trans}
   - BACK SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
   - {t: ▽, type: trans}
@@ -514,7 +514,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   SNIPER:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
