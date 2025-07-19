@@ -6,10 +6,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-// / {
-//     chosen { zmk,matrix_transform = &default_transform; };
-// };
-
 / {
     /* input config for mouse move mode */
 
@@ -26,19 +22,6 @@
         // bindings = <&ib_toggle_layer 7>;
     };
 
-    /* input config for snipe mode */
-
-    trackball_snipe_listener {
-        compatible = "zmk,input-behavior-listener";
-        device = <&vtrackball>;
-        layers = <10>;
-        evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
-        scale-divisor = <4>;
-    };
-
     /* input config for mouse scroll mode */
 
     trackball_scroll_listener {
@@ -50,6 +33,43 @@
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
         bindings = <&ib_wheel_scaler 1 14>;
+    };
+    
+    /* input config for snipe mode */
+
+    trackball_snipe_listener {
+        compatible = "zmk,input-behavior-listener";
+        device = <&vtrackball>;
+        layers = <4>;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
+        scale-multiplier = <1>;
+        scale-divisor = <4>;
+    };
+
+    /* input config for arrow key mode */
+
+    trackball_arrow_listener {
+        compatible = "zmk,input-behavior-listener";
+        device = <&vtrackball>;
+        layers = <5>;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
+        scale-multiplier = <1>;
+        scale-divisor = <8>;
+        bindings = <&ib_arrow_key 1 1>;
+    };
+
+    /* define arrow key behavior for trackball */
+
+    ib_arrow_key: ib_arrow_key {
+        compatible = "zmk,input-behavior-arrow-key";
+        #binding-cells = <2>;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
     };
 
     /* define a resolution down scaler only for INPUT_REL_WHEEL */
@@ -78,12 +98,6 @@
             layers = <3 6 11>;
         };
 
-        to-MAC {
-            bindings = <&to 3>;
-            key-positions = <50 51>;
-            layers = <0 6 11>;
-        };
-
         to-GAME {
             bindings = <&to 6>;
             key-positions = <47 36>;
@@ -94,6 +108,12 @@
             bindings = <&to 11>;
             key-positions = <41 42>;
             layers = <0 3 6>;
+        };
+
+        to-ARROW {
+            bindings = <&to 4>;
+            key-positions = <35 34>;
+            layers = <0 3 6 11>;
         };
 
         caps_word {
@@ -198,7 +218,7 @@
 &trans  &trans                &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &hml LEFT_CONTROL N1  &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                &trans  &trans  &trans         &trans    &trans  &trans  &trans  &trans  &trans  &bootloader
-                                      &trans  &kp BACKSPACE  &trans    &trans  &trans
+                                      &trans  &mo 4          &trans    &trans  &trans
                                               &trans         &trans    &trans
             >;
 
@@ -242,6 +262,19 @@
             >;
 
             label = "SNIPER";
+        };
+
+        arrow_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
+            >;
+
+            label = "ARROW";
         };
 
         keeb_pref_layer {
