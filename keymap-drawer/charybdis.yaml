@@ -91,9 +91,9 @@ layers:
   - PLAY PAUSE
   - NEXT
   - HOME
-  - Ctl+ LEFT
+  - Ctl+Sft+ LEFT
   - UP ARROW
-  - Ctl+ UP ARROW
+  - Ctl+Sft+ RIGHT
   - END
   - DEV TOOLS
   - {t: ▽, type: trans}
