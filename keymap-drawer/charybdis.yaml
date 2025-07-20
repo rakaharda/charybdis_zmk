@@ -483,5 +483,5 @@ combos:
   k: CAPSLOCK
 - p: [45, 46]
   k: SCROLL
-- p: [0, 1, 10, 11]
+- p: [0, 1]
   k: ZMK Studio

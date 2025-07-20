@@ -26,7 +26,7 @@
 
     trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
-        device = <&vtrackball>
+        device = <&vtrackball>;
         layers = <1 2 4 5>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
@@ -130,7 +130,7 @@
 
         studio_unlock {
             bindings = <&studio_unlock>;
-            key-positions = <0 1 10 11>;
+            key-positions = <0 1>;
         };
     };
 
