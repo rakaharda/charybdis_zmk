@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QWERTY: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LCTRL, Z, X, C, V, B, N, M, ',', ., /, ']', LEFT ALT, SPACE, LEFT WIN, ENTER, BACK SPACE, LEFT WIN, L CLK, NAV-FUN]
+    LCTRL, Z, X, C, V, B, N, M, ',', ., /, ']', LEFT ALT, SPACE, LEFT WIN, ENTER, BACK SPACE, 'RAISE ', L CLK, NAV-FUN]
   'RAISE ':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,7 +56,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV-FUN:
