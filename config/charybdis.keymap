@@ -204,10 +204,10 @@
 
         win_lower_layer {
             bindings = <
-&trans  &trans    &trans         &trans          &trans            &trans        &trans    &trans              &trans          &trans            &trans   &trans
-&trans  &kt F1    &kp F2         &kp F3          &kp F4            &kp F5        &kp F6    &kp F7              &kp F8          &kp F9            &kp F10  &kp F11
-&trans  &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp HOME  &kp LC(LEFT_ARROW)  &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp END  &kp F12
-&trans  &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &kp DEL   &kp LEFT_ARROW      &kp DOWN        &kp RIGHT         &trans   &studio_unlock
+&trans  &trans    &trans         &trans          &trans            &trans        &trans    &trans              &trans        &trans            &trans   &trans
+&trans  &kt F1    &kp F2         &kp F3          &kp F4            &kp F5        &kp F6    &kp F7              &kp F8        &kp F9            &kp F10  &kp F11
+&trans  &kp HOME  &kp PAGE_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp HOME  &kp LC(LEFT_ARROW)  &kp UP_ARROW  &kp LC(UP_ARROW)  &kp END  &kp F12
+&trans  &kp END   &kp PAGE_DOWN  &trans          &trans            &trans        &kp DEL   &kp LEFT_ARROW      &kp DOWN      &kp RIGHT         &trans   &studio_unlock
                                  &trans          &trans            &trans        &trans    &kp DEL
                                                  &trans            &trans        &trans
             >;

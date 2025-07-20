@@ -92,7 +92,7 @@ layers:
   - NEXT
   - HOME
   - Ctl+ LEFT
-  - DOWN ARROW
+  - UP ARROW
   - Ctl+ UP ARROW
   - END
   - DEV TOOLS
