@@ -48,30 +48,6 @@
         scale-divisor = <4>;
     };
 
-    /* input config for arrow key mode */
-
-    trackball_arrow_listener {
-        compatible = "zmk,input-behavior-listener";
-        device = <&vtrackball>;
-        layers = <5>;
-        evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
-        scale-divisor = <8>;
-        bindings = <&ib_arrow_key 1 1>;
-    };
-
-    /* define arrow key behavior for trackball */
-
-    ib_arrow_key: ib_arrow_key {
-        compatible = "zmk,input-behavior-arrow-key";
-        #binding-cells = <2>;
-        evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
-    };
-
     /* define a resolution down scaler only for INPUT_REL_WHEEL */
 
     ib_wheel_scaler: ib_wheel_scaler {
