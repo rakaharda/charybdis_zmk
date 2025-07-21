@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - typing_raise
   - {t: ▽, type: trans}
-  - QWERTY
+  - TYPING_LOWER
   typing_raise:
   - {t: ▽, type: trans}
   - F1
@@ -286,7 +286,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
