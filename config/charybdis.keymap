@@ -132,6 +132,11 @@
             bindings = <&studio_unlock>;
             key-positions = <0 1>;
         };
+
+        to-GAMING {
+            bindings = <&to 9>;
+            key-positions = <48 52>;
+        };
     };
 
     behaviors {
@@ -284,6 +289,17 @@
 &trans             &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans        &trans        &trans          &trans  &trans
                                                              &trans        &trans          &trans
+            >;
+        };
+
+        gaming_layer {
+            bindings = <
+&kp F1  &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4       &trans     &trans  &trans  &trans  &trans  &trans
+&kp F2  &kp TAB    &kp Q   &kp W   &kp E   &kp R        &trans     &trans  &trans  &trans  &trans  &trans
+&kp F3  &kp LSHFT  &kp A   &kp S   &kp D   &kp F        &trans     &trans  &trans  &trans  &trans  &trans
+&kp F4  &kp LCTRL  &kp Z   &kp X   &kp C   &kp V        &trans     &trans  &trans  &trans  &trans  &trans
+                           &trans  &trans  &kp SPACE    &mkp MCLK  &trans
+                                   &mo 0   &mkp LCLK    &mkp RCLK
             >;
         };
     };
