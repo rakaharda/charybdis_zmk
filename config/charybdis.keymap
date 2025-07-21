@@ -221,7 +221,7 @@
 &trans  &trans           &trans           &trans        &trans             &trans    &trans  &trans             &trans                 &trans            &trans                    &trans
 &trans  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &trans    &trans  &hmr LEFT_SHIFT J  &hmr RCTRL LEFT_SHIFT  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &trans
 &trans  &trans           &trans           &trans        &trans             &trans    &trans  &trans             &trans                 &trans            &trans                    &trans
-                                          &trans        &trans             &trans    &trans  &trans
+                                          &trans        &lt 4 SPACE        &trans    &trans  &trans
                                                         &mo 4              &trans    &mo 0
             >;
         };
