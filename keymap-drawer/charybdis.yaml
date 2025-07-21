@@ -149,7 +149,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: J, h: LEFT SHIFT}
-  - {t: LEFT SHIFT, h: RCTRL}
+  - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: SPACE, h: typing_raise}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ENTER, h: TYPING_LOWER}
   - {t: ▽, type: trans}
   - typing_raise
   - {t: ▽, type: trans}
@@ -282,11 +282,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
