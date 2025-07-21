@@ -264,7 +264,7 @@ layers:
   - HOME
   - Ctl+ LEFT
   - UP ARROW
-  - Ctl+ UP ARROW
+  - Ctl+ RIGHT
   - END
   - DEV TOOLS
   - {t: ▽, type: trans}
