@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: SPACE, h: typing_raise}
-  - {t: ▽, type: trans}
+  - typing_raise
   - {t: ENTER, h: TYPING_LOWER}
   - {t: ▽, type: trans}
   - typing_raise
