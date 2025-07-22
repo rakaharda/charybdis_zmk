@@ -137,6 +137,11 @@
             bindings = <&to 9>;
             key-positions = <48 52>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <11 10 9>;
+        };
     };
 
     behaviors {

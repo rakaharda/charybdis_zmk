@@ -544,3 +544,5 @@ combos:
   k: ZMK Studio
 - p: [48, 52]
   k: {t: gaming, h: toggle}
+- p: [11, 10, 9]
+  k: BOOT LDR
