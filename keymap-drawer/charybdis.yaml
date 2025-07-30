@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QWERTY: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LCTRL, Z, X, C, V, B, N, M, ',', ., /, ']', LEFT ALT, SPACE, 'RAISE ', ENTER, BACK SPACE, LEFT GUI, L CLK, NAV-FUN]
+    LCTRL, Z, X, C, V, B, N, M, ',', ., /, ']', LEFT ALT, SPACE, 'RAISE ', BACK SPACE, ENTER, LEFT GUI, L CLK, NAV-FUN]
   'RAISE ':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,8 +111,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -168,11 +168,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: SPACE, h: typing_raise}
   - typing_raise
+  - {t: ▽, type: trans}
   - {t: ENTER, h: TYPING_LOWER}
+  - M CLK
   - {t: ▽, type: trans}
-  - typing_raise
-  - {t: ▽, type: trans}
-  - TYPING_LOWER
+  - R CLK
   typing_raise:
   - {t: ▽, type: trans}
   - F1
@@ -273,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -282,8 +282,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - DELETE
   - {type: held}
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
