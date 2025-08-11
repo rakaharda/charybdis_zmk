@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {t: F1, h: toggle}
   - F2
