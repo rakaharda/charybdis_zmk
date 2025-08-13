@@ -168,11 +168,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: SPACE, h: typing_raise}
   - typing_raise
-  - {t: ENTER, h: TYPING_LOWER}
+  - {t: R CLK, h: TYPING_LOWER}
   - {t: ▽, type: trans}
   - M CLK
   - {t: ▽, type: trans}
-  - R CLK
+  - ENTER
   typing_raise:
   - {t: ▽, type: trans}
   - F1
