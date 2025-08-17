@@ -70,17 +70,17 @@
 
         to-WIN {
             bindings = <&to 0>;
-            key-positions = <50 51>;
+            key-positions = <50 51 49 52>;
         };
 
         to-TYPING {
             bindings = <&to 3>;
-            key-positions = <49 52>;
+            key-positions = <53 54 55>;
         };
 
         to-FN {
             bindings = <&to 8>;
-            key-positions = <41 42>;
+            key-positions = <41 42 40 43>;
         };
 
         caps_word {
@@ -135,7 +135,7 @@
 
         to-GAMING {
             bindings = <&to 9>;
-            key-positions = <48 52>;
+            key-positions = <48 52 49 51>;
         };
 
         bootloader {

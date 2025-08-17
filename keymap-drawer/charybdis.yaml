@@ -516,11 +516,11 @@ layers:
   - L CLK
   - R CLK
 combos:
-- p: [50, 51]
+- p: [50, 51, 49, 52]
   k: {t: QWERTY, h: toggle}
-- p: [49, 52]
+- p: [53, 54, 55]
   k: {t: typing, h: toggle}
-- p: [41, 42]
+- p: [41, 42, 40, 43]
   k: {t: FN, h: toggle}
 - p: [31, 28]
   k: CAPS WORD
@@ -542,7 +542,7 @@ combos:
   k: SCROLL
 - p: [0, 1]
   k: ZMK Studio
-- p: [48, 52]
+- p: [48, 52, 49, 51]
   k: {t: gaming, h: toggle}
 - p: [11, 10, 9]
   k: BOOT LDR
